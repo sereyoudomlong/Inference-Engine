@@ -48,6 +48,15 @@ public class iEngine {
     }
 
 
+    public void solve(String method){
+        switch (method){
+            case "TT":
+                TruthTable TT = new TruthTable(_kb, _query, _var);
+                TT.Solve();
+        }
+
+    }
+
 
 
     // testing function

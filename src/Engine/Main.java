@@ -20,7 +20,7 @@ public class Main {
 
         if (readFromFile(args[1])){
             iEngine Inference = new iEngine(kB, query);
-            Inference.printInfo();
+            Inference.solve(args[0]);
         }
 
     }
