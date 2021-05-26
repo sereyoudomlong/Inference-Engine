@@ -3,9 +3,7 @@ package Engine;
 import sun.security.util.ArrayUtil;
 
 import java.sql.SQLSyntaxErrorException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class TruthTable extends Method{
     public String _alpha;
@@ -88,7 +86,6 @@ public class TruthTable extends Method{
                     entailment = true;
                 }
             }
-
         }
         // print output
         if (entailment){

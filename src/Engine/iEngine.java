@@ -53,6 +53,15 @@ public class iEngine {
             case "TT":
                 TruthTable TT = new TruthTable(_kb, _query, _var);
                 TT.Solve();
+                break;
+            case "FC":
+                ForwardChaining FC = new ForwardChaining(_kb, _query);
+                FC.Solve();
+                break;
+            case "BC":
+                BackwardChaining BC = new BackwardChaining(_kb, _query);
+                BC.Solve();
+                break;
         }
 
     }
