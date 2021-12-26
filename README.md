@@ -12,9 +12,9 @@ This project is to create an inference engine which can do Truth Table(TT) algor
   ASK:
   d
   
-  TT Output should be => YES: 3 (YES if d is true, NO if not, and 3 is the amount of propositional symbols entailed from KB that was found)\n
-  FC Output should be => YES: a, b, p2, p3, p1, d (YES if d is true, then follow by the order of which the program follow to find d)\n
-  BC Output should be => YES: p2, p3, p1, d (This is the reverse of FC which it follow backward from d in knowledge base)\n
+  TT Output should be => YES: 3 (YES if d is true, NO if not, and 3 is the amount of propositional symbols entailed from KB that was found)<br />
+  FC Output should be => YES: a, b, p2, p3, p1, d (YES if d is true, then follow by the order of which the program follow to find d)<br />
+  BC Output should be => YES: p2, p3, p1, d (This is the reverse of FC which it follow backward from d in knowledge base)<br />
   
 # Running the program
 
